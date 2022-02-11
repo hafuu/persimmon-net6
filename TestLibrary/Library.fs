@@ -4,5 +4,5 @@ open Persimmon
 open Persimmon.Syntax.UseTestNameByReflection
 
 let t = test {
-    do! assertEquals 3 4
+    do! assertEquals 4 4
 }

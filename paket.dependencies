@@ -1,7 +1,8 @@
 source https://api.nuget.org/v3/index.json
 
 storage: none
-framework: auto-detect
+framework: net60
 
 nuget Persimmon
 nuget Persimmon.TestAdapter
+nuget Microsoft.NET.Test.Sdk
