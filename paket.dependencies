@@ -4,5 +4,4 @@ storage: none
 framework: net60
 
 nuget Persimmon
-nuget Persimmon.TestAdapter
-nuget Microsoft.NET.Test.Sdk
+nuget Persimmon.Runner
