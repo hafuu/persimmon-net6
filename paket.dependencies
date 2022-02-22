@@ -3,5 +3,11 @@ source https://api.nuget.org/v3/index.json
 storage: none
 framework: net60
 
-nuget Persimmon
-nuget Persimmon.Runner
+nuget FSharp.Core
+nuget Persimmon.MuscleAssert
+
+git https://github.com/hafuu/Persimmon.git master build: "dotnet fake build -t NuGet", Packages: /bin/
+
+nuget Persimmon = 5.0.1
+nuget Persimmon.Runner = 5.0.1
+

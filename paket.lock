@@ -2,15 +2,18 @@ STORAGE: NONE
 RESTRICTION: == net6.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    Diff.Match.Patch (2.1)
+      FSharp.Core (>= 4.1.18)
     FSharp.Core (6.0.3)
+    FSharp.Object.Diff (1.0)
+      FSharp.Core (>= 4.1.2)
     Microsoft.NETCore.Platforms (6.0.1)
     Microsoft.NETCore.Targets (5.0)
-    Persimmon (5.0)
-      FSharp.Core (>= 5.0)
-    Persimmon.Runner (5.0)
-      FSharp.Core (>= 5.0)
-      Persimmon (>= 5.0 < 6.0)
-      System.Xml.XDocument (>= 4.3)
+    Persimmon.MuscleAssert (3.0)
+      Diff.Match.Patch (>= 2.1)
+      FSharp.Core (>= 4.3.4)
+      FSharp.Object.Diff (>= 1.0)
+      Persimmon (>= 4.0.1)
     System.Collections (4.3)
       Microsoft.NETCore.Platforms (>= 1.1)
       Microsoft.NETCore.Targets (>= 1.1)
@@ -126,3 +129,15 @@ NUGET
       System.Text.Encoding (>= 4.3)
       System.Threading (>= 4.3)
       System.Xml.ReaderWriter (>= 4.3)
+  remote: paket-files/github.com/hafuu/Persimmon/bin
+    Persimmon (5.0.1)
+      FSharp.Core (>= 5.0)
+    Persimmon.Runner (5.0.1)
+      FSharp.Core (>= 5.0)
+      Persimmon (>= 5.0 < 6.0)
+      System.Xml.XDocument (>= 4.3)
+GIT
+  remote: https://github.com/hafuu/Persimmon.git
+     (6dd54905b00b41df5f060b7352e9d7f285be2281)
+      build: dotnet fake build -t NuGet
+      path: /bin/
