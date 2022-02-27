@@ -4,6 +4,10 @@ open Persimmon
 open Persimmon.Syntax.UseTestNameByReflection
 open Persimmon.MuscleAssert
 
-let t = test {
-    do! assertEquals 4 4
+let testOption = test {
+    do! assertEquals (Some 4) (None)
+}
+
+let testList = test {
+    do! assertEquals [ 1 ] [ 2; 3 ]
 }
