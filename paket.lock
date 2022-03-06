@@ -2,11 +2,11 @@ STORAGE: NONE
 RESTRICTION: == net6.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    Diff.Match.Patch (2.1)
-      FSharp.Core (>= 4.1.18)
+    Diff.Match.Patch (3.0.1)
+      FSharp.Core (>= 5.0)
     FSharp.Core (6.0.3)
-    FSharp.Object.Diff (1.0)
-      FSharp.Core (>= 4.1.2)
+    FSharp.Object.Diff (2.0)
+      FSharp.Core (>= 5.0)
     Microsoft.NETCore.Platforms (6.0.1)
     Microsoft.NETCore.Targets (5.0)
     Persimmon (5.0.1)
