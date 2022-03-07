@@ -11,3 +11,6 @@ let testOption = test {
 let testList = test {
     do! assertEquals [ 1 ] [ 2; 3 ]
 }
+let nullTest = test {
+    do! assertEquals [ (Some 4, 4) ] [  ]
+}
