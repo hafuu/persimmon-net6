@@ -9,3 +9,4 @@ nuget Persimmon.MuscleAssert
 nuget Persimmon
 nuget Persimmon.Runner
 
+nuget MessagePack

@@ -7,6 +7,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="paket.references" />
+    <Compile Include="Types.fs" />
     <Compile Include="Library.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
